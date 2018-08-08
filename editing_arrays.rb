@@ -12,15 +12,16 @@ def change_rainbow_colors
   "light_cyan"
 ]
   rainbow_colors[0] = "red"
-  rainbow_colors[1] = "light red"
-  rainbow_colors[2] = "light yellow"
+  rainbow_colors[1] = "light_red"
+  rainbow_colors[2] = "light_yellow"
+  return rainbow_colors
 end
 
 def add_colors
   # Write a solution that adds "green", then "blue" to the rainbow_colors array, then returns the array
   rainbow_colors = [
-  "yellow",
-  "default",
+  "red",
+  "light_red",
   "light_cyan"
 ]
   rainbow_colors << "green"
